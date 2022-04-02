@@ -6,7 +6,7 @@ jobs:
   create_issue:
     runs-on: ubuntu-latest
     steps:
-      - name: Create an issue
+      - name: Create first issue
         uses: actions-ecosystem/action-create-issue@v1
         with:
           github_token: ${{ secrets.github_token }}
@@ -37,7 +37,7 @@ jobs:
             - [ ] after review merge into main
             - [ ] move this issue in the board from `In Progress` tab into `Done` tab
             - [ ] close this issue
-      - name: Create an issue
+      - name: Create second issue
         uses: actions-ecosystem/action-create-issue@v1
         with:
           github_token: ${{ secrets.github_token }}
