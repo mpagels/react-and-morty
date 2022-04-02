@@ -1,0 +1,39 @@
+name: Create all issues for the project
+
+on: workflow_dispatch
+
+jobs:
+  create_issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create an issue
+        uses: actions-ecosystem/action-create-issue@v1
+        with:
+          github_token: ${{ secrets.github_token }}
+          title: Setup project
+          body: |
+            # Description
+
+The repo is empty. (Except the readme ;-) ). We need to create a React app in it and some other stuff.
+
+## ToDo
+- [ ] move this issue in the board from `ToDo` tab into `In Progress` tab
+- [ ] create a new branch locally, call it maybe `feat/setup`
+- [ ] install React  
+
+inside the repo use
+```shell
+npx create-react-app .
+```
+the `.` says the script, please install react in the folder you are in
+
+- [ ] remove template code from the React project
+- [ ] create or copy from another project a  `.prettierrc` file
+- [ ] commit everything
+- [ ] push everything to the remote repo on GitHub
+- [ ] create a `pull reqeust`
+- [ ] write a meaningful pr message that contains what happened in the `pull request`
+- [ ] ask for a review from your colleagues
+- [ ] after review merge into main
+- [ ] move this issue in the board from `In Progress` tab into `Done` tab
+- [ ] close this issue
