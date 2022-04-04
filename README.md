@@ -9,7 +9,7 @@
 
 This repo contains the Rick and Morty in React exercise. Use this as a template.
 
-We will build a React app, which let you renders characters from the Rick and Morty API. You will be able to save characters as favorites, see detailed information on a separate page and you can get random characters.
+We will create a React app to render characters from the Rick and Morty API. You will be able to save characters as favorites, see detailed information on a separate page and you can get random characters.
 
 See a scribble for a simple overview:
 ![app](assets/react-and-morty-app.png)
@@ -40,7 +40,7 @@ We have created some issues for you. (You will learn how to import these into yo
 These issues, solved from 1 to 7, will help you to focus on one problem at a time.
 After solving everyone of them the app should be „production“ ready and running.
 
-Please read the issues carefully and if you have any questions, pls asks the coaches.
+Please read the issues carefully and if you have any questions, pls ask the coaches.
 
 If you working on an issue, pls move the issue from the todo tab in the project board to the working on tab.
 
@@ -72,7 +72,7 @@ If you working on an issue, pls move the issue from the todo tab in the project 
 
 ### Workflow step 2
 
-- after doing [Worfklow step1](#workflow-step-1):
+- after doing [Workflow step 1](#workflow-step-1):
 - read the issue carefully, best practice would be to start with #1 and do everything whats in there
 
 - When you are ready, push the branch to Github and create a pull request, write a short description what was done here and then merge the branch into main.
