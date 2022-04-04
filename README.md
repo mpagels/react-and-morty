@@ -54,13 +54,10 @@ If you working on an issue, pls move the issue from the todo tab in the project 
 - got to the `Projects` tabs
   ![board1](assets/project_board1.png)
 - choose `Projects` (not Projects beta) and click `New project`
--
-- move it in the board to the "on progress" tab, that indicates, that you are working on the issue
   ![board1](assets/project_board2.png)
 - give the board a meaningful name, like `Development` and choose as a `Project template` -> `Basic kanban`
   ![board1](assets/project_board3.png)
 - click then `Create project`
-
 - go now to the `Actions` tab
   ![board1](assets/action.png)
 - click `Create all issues for the project` and then `Run workflow` and again `Run workflow`
@@ -91,8 +88,8 @@ If you working on an issue, pls move the issue from the todo tab in the project 
 - [Rick and Morty API Docs](https://rickandmortyapi.com/documentation/#rest)
 - [useState](https://reactwithhooks.netlify.app/docs/hooks-state.html)
 - [useEffect](https://reactwithhooks.netlify.app/docs/hooks-effect.html)
-- HAVE FUN
+
+HAVE FUN
 
 > "Wubba lubba dub dub"
->
 > -- <cite>Rick Sanchez</cite>
