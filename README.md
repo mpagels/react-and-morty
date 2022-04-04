@@ -87,7 +87,12 @@ If you working on an issue, pls move the issue from the todo tab in the project 
 
 - Start over with the next issue.
 
-HAVE FUN
+## Recources:
+
+- [Rick and Morty API Docs](https://rickandmortyapi.com/documentation/#rest)
+- [useState](https://reactwithhooks.netlify.app/docs/hooks-state.html)
+- [useEffect](https://reactwithhooks.netlify.app/docs/hooks-effect.html)
+- HAVE FUN
 
 > "Wubba lubba dub dub"
 >
