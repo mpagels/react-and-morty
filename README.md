@@ -88,6 +88,7 @@ If you working on an issue, pls move the issue from the todo tab in the project 
 - [Rick and Morty API Docs](https://rickandmortyapi.com/documentation/#rest)
 - [useState](https://reactwithhooks.netlify.app/docs/hooks-state.html)
 - [useEffect](https://reactwithhooks.netlify.app/docs/hooks-effect.html)
+- [react-router](https://reactrouter.com/docs/en/v6/getting-started/tutorial)
 
 HAVE FUN
 
