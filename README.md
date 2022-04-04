@@ -6,6 +6,8 @@
 
 ## What we are going to build
 
+![repo-logo](assets/react-and-morty.jpg)
+
 This repo contains the Rick and Morty in React exercise. Use this as a template.
 
 We will build a React app, which let you renders characters from the Rick and Morty API. You will be able to save characters as favorites, see detailed information on a separate page and you can get random characters.
@@ -17,6 +19,7 @@ See final example app:
 ## Learning Objectives
 
 - git & GitHub workflow
+- using [issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) and a [board](https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards) to organize tasks
 - learn to build a multipage react application
 - how to break down a big problem in solvable smaller problems
 - coding, coding, coding
@@ -33,27 +36,48 @@ See final example app:
 
 ## How to get started?
 
-We have created a board with some issues found in the project board and issue tab of the project
-(bild)
+We have created some issues for you. (You will learn how to import these into your own project (after using the template))
 
-These issues, solved from 1 to 7, helps you to focus on one problem at a time.
+These issues, solved from 1 to 7, will help you to focus on one problem at a time.
 After solving everyone of them the app should be „production“ ready and running.
 
 Please read the issues carefully and if you have any questions, pls asks the coaches.
 
 If you working on an issue, pls move the issue from the todo tab in the project board to the working on tab.
 
-### Workflow
+### Workflow step 1
 
 - use this repo as a template and create an own project in your GitHub Account
 
 - then clone the repo to your local machine
 
-- on Github go to the project board and pick issue #1
-
+- back to Github create a board
+- got to the `Projects` tabs
+  ![board1](assets/project_board1.png)
+- choose `Projects` (not Projects beta) and click `New project`
+-
 - move it in the board to the "on progress" tab, that indicates, that you are working on the issue
+  ![board1](assets/project_board2.png)
+- give the board a meaningful name, like `Development` and choose as a `Project template` -> `Basic kanban`
+  ![board1](assets/project_board3.png)
+- click then `Create project`
 
-- read the issue carefully and do everything whats in there
+- go now to the `Actions` tab
+  ![board1](assets/action.png)
+- click `Create all issues for the project` and then `Run workflow` and again `Run workflow`
+  ![board1](assets/action2.png)
+- this `action` creates all issues, you have to do
+- under the `Issues` tab you should see now the number 7
+  ![board1](assets/issues.png)
+- go back to your `project kanban board` and click the `+ Add cards` button and move every issue with drag & drop into the `To do` column
+  ![board1](assets/issues2.png)
+  ![board1](assets/issues3.png)
+  ![board1](assets/issues4.png)
+
+### Workflow step 2
+
+- after doing [Worfklow step1](#workflow-step-1):
+- read the issue carefully, best practice would be to start with #1 and do everything whats in there
 
 - When you are ready, push the branch to Github and create a pull request, write a short description what was done here and then merge the branch into main.
 
