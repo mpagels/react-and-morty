@@ -13,7 +13,7 @@ We will create a React app to render characters from the Rick and Morty API. You
 
 See a scribble for a simple overview:
 ![app](assets/react-and-morty-app.png)
-See final example app:
+See final example app [here](https://react-and-morty-solution.vercel.app/)
 
 ## Learning Objectives
 
