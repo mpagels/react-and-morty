@@ -13,7 +13,7 @@ This repo contains the Rick and Morty in React exercise. Use this as a template.
 We will build a React app, which let you renders characters from the Rick and Morty API. You will be able to save characters as favorites, see detailed information on a separate page and you can get random characters.
 
 See a scribble for a simple overview:
-
+![app](assets/react-and-morty-app.png)
 See final example app:
 
 ## Learning Objectives
