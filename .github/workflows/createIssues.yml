@@ -1,6 +1,6 @@
 name: Create all issues for the project
 
-on: create
+on: workflow_dispatch
 
 jobs:
   create_issue:
