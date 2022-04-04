@@ -37,7 +37,7 @@ See final example app [here](https://react-and-morty-solution.vercel.app/)
 
 We have created some issues for you. (You will learn how to import these into your own project (after using the template))
 
-These issues, solved from 1 to 7, will help you to focus on one problem at a time.
+These issues, solved from 1 to 8, will help you to focus on one problem at a time.
 After solving everyone of them the app should be „production“ ready and running.
 
 Please read the issues carefully and if you have any questions, pls ask the coaches.
@@ -50,7 +50,7 @@ If you working on an issue, pls move the issue from the todo tab in the project 
 
 - then clone the repo to your local machine
 
-- back to Github create a board
+- create a board back on Github (in the repo)
 - got to the `Projects` tabs
   ![board1](assets/project_board1.png)
 - choose `Projects` (not Projects beta) and click `New project`
@@ -63,7 +63,7 @@ If you working on an issue, pls move the issue from the todo tab in the project 
 - click `Create all issues for the project` and then `Run workflow` and again `Run workflow`
   ![board1](assets/action2.png)
 - this `action` creates all issues, you have to do
-- under the `Issues` tab you should see now the number 7
+- under the `Issues` tab you should see now the number 8 (the image is just an example)
   ![board1](assets/issues.png)
 - go back to your `project kanban board` and click the `+ Add cards` button and move every issue with drag & drop into the `To do` column
   ![board1](assets/issues2.png)
