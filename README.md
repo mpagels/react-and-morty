@@ -1,6 +1,6 @@
 # React and Morty
 
-> "The only way to learn a new programming language is by writing programs in it."
+> "The only way to learn a new programming language is by writing programs in it."  
 > -- <cite>Dennis Ritchie</cite>
 
 ## What we are going to build
@@ -91,5 +91,5 @@ If you working on an issue, pls move the issue from the todo tab in the project 
 
 HAVE FUN
 
-> "Wubba lubba dub dub"
+> "Wubba lubba dub dub"  
 > -- <cite>Rick Sanchez</cite>
