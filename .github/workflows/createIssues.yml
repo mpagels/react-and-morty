@@ -10,59 +10,236 @@ jobs:
         uses: actions-ecosystem/action-create-issue@v1
         with:
           github_token: ${{ secrets.github_token }}
-          title: Setup project
+          title: 01 Setup project
           body: |
             # Description
 
             The repo is empty. (Except the readme ;-) ). We need to create a React app in it and some other stuff.
 
-            ## ToDo
-            - [ ] move this issue in the board from `ToDo` tab into `In Progress` tab
-            - [ ] create a new branch locally, call it maybe `feat/setup`
+            ## ToDos
+            - [ ] move this issue in the board from `ToDo` tab into `In Progress` tab 
             - [ ] install React  
 
             inside the repo use
             ```shell
-            npx create-react-app .
+            npm install
             ```
-            the `.` says the script, please install react in the folder you are in
-
+            - [ ] create a new branch locally, call it maybe `feat/setup`
             - [ ] remove template code from the React project
             - [ ] create or copy from another project a  `.prettierrc` file
             - [ ] commit everything
             - [ ] push everything to the remote repo on GitHub
-            - [ ] create a `pull reqeust`
+            - [ ] create a `pull request`
             - [ ] write a meaningful pr message that contains what happened in the `pull request`
             - [ ] ask for a review from your colleagues
             - [ ] after review merge into main
+            - [ ] delete your local feature branch and update your main branch
             - [ ] move this issue in the board from `In Progress` tab into `Done` tab
             - [ ] close this issue
       - name: Create second issue
         uses: actions-ecosystem/action-create-issue@v1
         with:
           github_token: ${{ secrets.github_token }}
-          title: Setup project 2
+          title: 02 Create simple Markup (without css)
+          body: |
+            # Description
+            After setting everything up, it is time to write the first code.
+            We will create the first page with simple html markup in our `App.js`
+
+            <img width="240" alt="Bildschirmfoto 2022-04-02 um 19 25 49" src="https://user-images.githubusercontent.com/54703643/161394296-3f9d67ff-095c-42c3-8f10-7cf554c96b9e.png">
+
+            ## Tips:
+            If you want to break this whole issue down to a smaller one, you can convert tasks to new issues. Just move your mouse pointer to the right end of the task:
+            <img width="962" alt="Bildschirmfoto 2022-04-02 um 19 32 13" src="https://user-images.githubusercontent.com/54703643/161394518-ae6897ec-c0ab-49c7-b138-92e7f8601dd9.png">
+
+
+            ## ToDos
+            - [ ] move this issue in the board from `ToDo` tab into `In Progress` tab
+            - [ ] create a new branch locally
+            - [ ] create header html markup
+            - [ ] create card html with fake data
+
+            It's dangerous to go alone. Take this as content:
+            - for the image:
+            ```
+            https://rickandmortyapi.com/api/character/avatar/2.jpeg
+            ```
+            - for the character name:
+            ```
+            Morty Smith
+            ```
+            - [ ] create navbar html
+            the links right now are just placeholders, you are free to use some symbols or just some round colors div
+            - [ ] commit everything
+            - [ ] push everything to the remote repo on GitHub
+            - [ ] create a `pull request`
+            - [ ] write a meaningful pr message that contains what happened in the `pull request`
+            - [ ] ask for a review from your colleagues
+            - [ ] after review merge into main
+            - [ ] move this issue in the board from `In Progress` tab into `Done` tab
+            - [ ] close this issue
+      - name: Create third issue
+        uses: actions-ecosystem/action-create-issue@v1
+        with:
+          github_token: ${{ secrets.github_token }}
+          title: 03 Convert HTML in components for reuse
+          body: |
+            # Description
+            After creating a simple html markup we want to convert this to reusable components.
+
+            ## ToDos
+
+            - [ ] move this issue in the board from `ToDo` tab into `In Progress` tab
+            - [ ] create a new branch locally
+            - [ ] install styled-components
+            - [ ] convert header html into component
+            - [ ] style `Header` component with `styled-components`
+            - [ ] convert card html into component
+            - [ ] style `Card` component with `styled-components`
+            - [ ] convert navBar html into component
+            - [ ] style `NavBar` component with `styled-components`
+            - [ ] commit everything
+            - [ ] push everything to the remote repo on GitHub
+            - [ ] create a `pull request`
+            - [ ] write a meaningful pr message that contains what happened in the `pull request`
+            - [ ] ask for a review from your colleagues
+            - [ ] after review merge into main
+            - [ ] move this issue in the board from `In Progress` tab into `Done` tab
+            - [ ] close this issue
+      - name: Create fourth issue
+        uses: actions-ecosystem/action-create-issue@v1
+        with:
+          github_token: ${{ secrets.github_token }}
+          title: 04 Fetch data from `rickandmortyapi`
+          body: |
+            # Description
+            After creating the first page, we want now to fetch the data from the `rickandmorty` API and render the result (the characters) here.
+
+            ## ToDos
+
+            - [ ] move this issue in the board from `ToDo` tab into `In Progress` tab
+            - [ ] create a new branch locally
+            - [ ] fetch the `rickandmorty` API
+            ```
+            https://rickandmortyapi.com/api/character
+            ```
+            - [ ] display the result on the page
+            - [ ] commit everything
+            - [ ] push everything to the remote repo on GitHub
+            - [ ] create a `pull request`
+            - [ ] write a meaningful pr message that contains what happened in the `pull request`
+            - [ ] ask for a review from your colleagues
+            - [ ] after review merge into main
+            - [ ] move this issue in the board from `In Progress` tab into `Done` tab
+            - [ ] close this issue
+      - name: Create fifth issue
+        uses: actions-ecosystem/action-create-issue@v1
+        with:
+          github_token: ${{ secrets.github_token }}
+          title: 05 Create a detailed page and render a detailed characters card
+          body: |
+            # Description
+            When clicking on the `Show more` button, the user should be navigated to a detailed characters page. The characters card here has a button where the user can display even more details.
+
+            <img width="417" alt="Bildschirmfoto 2022-04-02 um 20 05 05" src="https://user-images.githubusercontent.com/54703643/161395733-03d81283-b947-45b1-b57b-f33349b32181.png">
+
+            ## ToDos
+
+            - [ ] move this issue in the board from `ToDo` tab into `In Progress` tab
+            - [ ] create a new branch locally
+            - [ ] install react-router
+            - [ ] create character page
+            - [ ] create detailed character card with logic for show more component (check the API for more content)
+            - [ ] create logic, when clicking the „show more“ button on the `start page`, the user is moved to the detailed page and the character is loaded with more details
+            - [ ] commit everything
+            - [ ] push everything to the remote repo on GitHub
+            - [ ] create a `pull request`
+            - [ ] write a meaningful pr message that contains what happened in the `pull request`
+            - [ ] ask for a review from your colleagues
+            - [ ] after review merge into main
+            - [ ] move this issue in the board from `In Progress` tab into `Done` tab
+            - [ ] close this issue
+      - name: Create sixth issue
+        uses: actions-ecosystem/action-create-issue@v1
+        with:
+          github_token: ${{ secrets.github_token }}
+          title: 06 Let save character as favorite
+          body: |
+            # Description
+            On the `detailed` characters page, a button indicates, that you can save the rendered character as a favorite. When the button is clicked, the character is saved as a favorite and the button indicates that. When clicked again, the character is removed as a favorite.
+
+            <img width="745" alt="Bildschirmfoto 2022-04-04 um 23 57 43" src="https://user-images.githubusercontent.com/54703643/161639083-be089b6d-55c0-4649-98b7-92c683d21547.png">
+
+
+            ## ToDos
+
+            - [ ] move this issue in the board from `ToDo` tab into `In Progress` tab
+            - [ ] create a new branch locally
+            - [ ] add a `favorite` button
+            - [ ] when the character is not saved as a favorite yet, the button indicates that with a neutral color
+            - [ ] when clicking the button, the character is saved as a favorite and the button indicates that with a signal (maybe green color)
+            - [ ] when clicked again, the character is removed as a favorite, the color of the button changes again
+            - [ ] the favorite state should persist, when the app is reloaded. (localStorage)
+            - [ ] commit everything
+            - [ ] push everything to the remote repo on GitHub
+            - [ ] create a `pull request`
+            - [ ] write a meaningful pr message that contains what happened in the `pull request`
+            - [ ] ask for a review from your colleagues
+            - [ ] after review merge into main
+            - [ ] move this issue in the board from `In Progress` tab into `Done` tab
+            - [ ] close this issue
+      - name: Create seventh issue
+        uses: actions-ecosystem/action-create-issue@v1
+        with:
+          github_token: ${{ secrets.github_token }}
+          title: 07 Create a favorite page
+          body: |
+            # Description
+            After just saving the characters on the `detailed` page, it is now time to show every saved favorite character on a separate page
+
+            ## ToDos
+
+            - [ ] move this issue in the board from `ToDo` tab into `In Progress` tab
+            - [ ] create a new branch locally
+            - [ ] the page should render all the saved favorite characters
+            - [ ] when clicked the favorite button the character should be removed from the array
+            - [ ] the array should updated in the localStorage as well
+            - [ ] every functionality of the detailed character card should work here as well
+            - [ ] add the link to to `favorite page` in the `NavBar` component
+            - [ ] commit everything
+            - [ ] push everything to the remote repo on GitHub
+            - [ ] create a `pull request`
+            - [ ] write a meaningful pr message that contains what happened in the `pull request`
+            - [ ] ask for a review from your colleagues
+            - [ ] after review merge into main
+            - [ ] move this issue in the board from `In Progress` tab into `Done` tab
+            - [ ] close this issue
+      - name: Create eigth issue
+        uses: actions-ecosystem/action-create-issue@v1
+        with:
+          github_token: ${{ secrets.github_token }}
+          title: 08 Get a random character page
           body: |
             # Description
 
-            The repo is empty. (Except the readme ;-) ). We need to create a React app in it and some other stuff.
+            As a practice exercise, create another page, where you can just load a random character, when clicking a button
 
-            ## ToDo
+            <img width="202" alt="Bildschirmfoto 2022-04-04 um 14 34 30" src="https://user-images.githubusercontent.com/54703643/161544568-c9ced434-e1b2-4b10-9f6b-716d6cf08d37.png">
+
+            ## ToDos
+
             - [ ] move this issue in the board from `ToDo` tab into `In Progress` tab
-            - [ ] create a new branch locally, call it maybe `feat/setup`
-            - [ ] install React  
-
-            inside the repo use
-            ```shell
-            npx create-react-app .
-            ```
-            the `.` says the script, please install react in the folder you are in
-
-            - [ ] remove template code from the React project
-            - [ ] create or copy from another project a  `.prettierrc` file
+            - [ ] create a new branch locally
+            - [ ] create a page where you can click a „get random character“ button
+            - [ ] The page should display a bit `question` mark, when no character is loaded
+            - [ ] when clicked, a random character is loaded from the api and rendered (the card from the dashboard)
+            - [ ] when a random character was loaded, the question mark is removed
+            - [ ] when clicking the `get random character` button again, another character is loaded
+            - [ ] the `show more` button should navigate to the `detailed page`
+            - [ ] add link to `random` page on `NavBar` component
             - [ ] commit everything
             - [ ] push everything to the remote repo on GitHub
-            - [ ] create a `pull reqeust`
+            - [ ] create a `pull request`
             - [ ] write a meaningful pr message that contains what happened in the `pull request`
             - [ ] ask for a review from your colleagues
             - [ ] after review merge into main
